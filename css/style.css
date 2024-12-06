@@ -1,0 +1,605 @@
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:active,
+:hover,
+:focus {
+    outline:0 !important;
+    outline-offset: 0;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #cacfea !important;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;   
+}
+
+body{
+    background: url('../images/asset\ 14.jpeg') #150136 no-repeat;
+    font-family: "Josefin Sans" , sans-serif;
+}
+
+/* custom scrollbar */
+ 
+::-webkit-scrollbar {
+    width: 0.625rem;
+}
+::-webkit-scrollbar-track{
+    background: white;
+}
+::-webkit-scrollbar-thumb{
+    background: #150136;
+}
+
+/* custom css design */
+h1 {
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 82.5px;
+    letter-spacing: normal;
+    margin-bottom: 3rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+.main-btn{
+    display: inline-block;
+    font-size: 16px;
+    padding: 18px 36px;
+    line-height: 24px;
+    border: 1px solid #333333;
+    border-radius: 15px;
+    color: white;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    box-shadow: rgb(20, 21, 39) 15px 10px 20px 0px;
+    background: linear-gradient(to right bottom, #150136 0%, #363C74 100%);
+    transition: transform 0.3s ease;
+}
+
+.main-btn:hover{
+    transform: translateY(-5px);
+    color: white;
+}
+
+.banner-anchor{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.banner-anchor i{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.white-btn {
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 15px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: background-color 0.3s ease;
+  color: white;
+}
+
+.white-btn:hover {
+    background-color: white;
+}
+
+.white-btn:hover i{
+    color: black;
+    animation: none;
+}
+
+/* infinity Glow */
+.banner-anchor i{
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+    animation: infinityGlow 1.5s infinite alternate;
+}
+
+@keyframes infinityGlow {
+    0% {
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5), 0 0 10px rgba(255, 255, 255, 0.4);
+    }
+    100% {
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.5), 0 0 25px rgba(255, 255, 255, 0.8);
+    }
+}
+
+
+h2 {
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: "Josefin Sans", sans-serif;
+    color: white;
+    line-height: 45.6px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: left;
+    text-transform: capitalize;
+    font-family: "Josefin Sans", sans-serif;
+    color: white;
+    line-height: 28.8px;
+}
+
+p{
+    font-size: 1rem;
+    color: #979bb1;
+    text-align: center;
+    font-weight: 400;
+    line-height: 19.2px;
+    letter-spacing: normal;
+}
+
+h4 {
+    color: white;
+    font-family: "josefin Sans", sans-serif;
+    text-transform: capitalize;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+/* h5 {
+    color: var(--primary-color);
+    text-transform: capitalize;
+    font-family: var(--secondary-font);
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.wrapper{
+    padding-top: 8.25rem;
+    padding-bottom: 8.25rem;
+}
+.text-content{
+    width: 70%;
+    margin: auto;
+}
+
+.counter-section h2,
+.testimonial-section h2,
+.book-food-text h2 {
+    color: var(--white-color);
+} */
+
+/* header design */
+.navigation-wrap .navbarNav .nav-item a{
+    color: white;
+    font-family: "Josefin Sans" , sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    
+}
+
+.nav_cont{
+    border-bottom:1px solid #333333;
+
+}
+
+.navigation-wrap{
+    width: 100%;
+    left: 0;
+    z-index: 1000;
+    -webkit-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;  
+    transition: all 0.3s ease-out;
+}
+
+.navigation-wrap .nav-item {
+    padding: 0 0.625rem;
+    transition: all 200ms linear;
+}
+
+.navbar-toggler:focus{
+    outline: unset;
+    border: unset;
+    box-shadow: none;
+    
+}
+
+.nav-link{
+    font-size: 0.9375rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: var(--primary-color);
+    letter-spacing: 1px;
+}
+
+.img_logo{
+    width: 9%;
+    height: auto;
+    padding: 19px 10px;
+}
+
+.navbar-brand , .logo img{
+    width: 100%;
+    height: auto;
+}
+
+.cont{
+    font-family: "Josefin Sans" , sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: start;
+    letter-spacing: normal;
+}
+
+/* Top Banner */
+.top_banner h1{
+    padding-top: 108px;
+}
+
+.top_banner h1 span{
+    color: #3e3947;
+    background: linear-gradient(to bottom,#727AC2 100% , #1C0B44 0%);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.journey-text {
+    display: inline-block;
+    word-spacing: -1rem;
+    font-family: "Josefin Sans" , sans-serif;
+}
+
+.journey-text span {
+    opacity: 0;
+    animation: reveal 3s forwards infinite;
+}
+
+/* journey keyframes */
+@keyframes reveal {
+    0% {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* journey animation*/
+.journey-text span:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.journey-text span:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.journey-text span:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+.journey-text span:nth-child(4) {
+    animation-delay: 0.4s;
+}
+
+.journey-text span:nth-child(5) {
+    animation-delay: 0.5s;
+}
+
+.journey-text span:nth-child(6) {
+    animation-delay: 0.6s;
+}
+
+.journey-text span:nth-child(7) {
+    animation-delay: 0.7s;
+}
+
+.journey-text span:nth-child(8) {
+    animation-delay: 0.8s;
+}
+
+.banner-btn{
+    text-align: center;
+}
+
+/* Results */
+#Results{
+    background-color: #150136;
+    /* box-shadow: 0 -10px 15px rgba(0, 0, 0, 0.5);  */
+    /* width: 100%; */
+}
+
+.result-row{
+    padding-top: 100px;
+}
+
+.explore-food .card{
+    border: none;
+    background-color: transparent;
+}
+.explore-food .card .R_img{
+    margin: auto;
+    display: inline-block;
+    color: white;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.result-border{
+    border: 1px solid #333333;
+    border-radius: 20px;
+}
+
+/* Map */
+.map{
+    padding-top: 80px;
+}
+
+.map p{
+    width: 44%;
+    margin: auto;
+    letter-spacing: normal;
+    line-height: 20.6px;
+    font-family:"Josefin Sans",sans-serif;
+}
+
+.map .flag{
+    position: relative;
+    width: 50px;
+    height: 35px;
+}
+
+.map .fl_1{
+    position: relative;
+    top: -500px;
+    left: 786px;
+}
+
+.map .fl_2{
+    position: relative;
+    top: -400px;
+    left: 796px;
+}
+
+.map .fl_3{
+    position: relative;
+    top: -453px;
+    left: 400px;
+}
+
+.map .fl_4{
+    position: relative;
+    top: -380px;
+    left: 60px;
+}
+
+.map .fl_5{
+    position: relative;
+    top: -337px;
+    left: 390px;
+}
+
+.map .fl_6{
+    position: relative;
+    top: -265px;
+    left: 568px;
+}
+
+.map .fl_7{
+    position: relative;
+    top: -405px;
+    left: 250px;
+}
+
+.map .fl_8{
+    position: relative;
+    top: -433px;
+    left: 180px;
+}
+
+/* Cards */
+.explore-card{
+    margin-top: 100px;
+}
+
+.explore-card .card{
+    background-color: transparent;
+    border-radius: 20px;
+    border: 1px solid #333333;
+    padding:10px 25px 10px 10px;
+}
+
+.explore-card .card p{
+    font-size: 1rem;
+    color: #979bb1;
+    text-align: left;
+    font-weight: 400;
+    line-height: 28.8px;
+    letter-spacing: normal;
+}
+
+.explore-card .card button{
+    border-radius: 70px;
+    font-size: 18px;
+    padding: 16px 34px;
+    line-height: 27px;
+    letter-spacing: 0.5px;
+}
+
+.explore-card .card span{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: linear-gradient(to right bottom, #150136 0%, #363C74 100%);
+    justify-content:center;
+    align-items: center;
+    display: flex;
+    color: white;
+}
+
+/* participant */
+.explore-client{
+    margin-top: 150px;
+}
+
+.explore-client .card{
+    background-color: transparent;
+    display: inline-block;
+    align-items: center;
+    border: 1px solid #333333;
+    padding: 6% 2%;
+    border-radius: 20px;
+}
+
+.explore-client .card h3{
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1rem;
+    line-height: 24px;
+}
+
+.explore-client .card img{
+    width: 80px;
+    height: 80px;
+    margin-top: 35px;
+}
+
+.explore-client h2 span{
+    background: linear-gradient(to right top , #51598F 0% , #727AC2 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* FAQ */
+.faq_wrapper{
+    padding:100px 0 0;
+}
+.faq_wrapper .faq_subtitle{ 
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+    margin-bottom: 5px;
+    background: linear-gradient(to right top , #51598F 0% , #727AC2 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.faq_wrapper .faq_title{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 45.6px;
+    text-align: left;
+    margin-bottom: -25px;
+    color: white;
+}
+.faq_wrapper .accordion-button:hover,
+.faq_wrapper .accordion-button:focus{
+    box-shadow: none;
+}
+
+.faq_wrapper .accordion-item h2{
+    font-size: 16px;
+    font-family: "Josefin Sans" sans-serif;
+}
+
+.faq_wrapper .accordion-item{
+    border:0;
+    border-radius: 15px;
+    background-color: #190B3A;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px 0px;
+    color: white;
+    font-size: 16px;
+    padding: 10px 10px 0px 10px;
+}
+.faq_wrapper .accordion-button{
+    height: 100px;
+    font-size: 21px;
+    font-family: var(--secondary-font);
+    font-weight: 600;
+    color: var(--text-black);
+    background-color: var(--text-white);
+    border-radius: 0;
+    padding: 0 0 15px 0;
+    border-bottom: 1px solid var(--text-light-3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.faq_wrapper .accordion-button::after{
+    content:'\002B';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 800;
+    display: inline-block;
+    background-image: none;
+}
+.faq_wrapper .accordion-button:not(.collapsed)::after{
+    content:"\f00d";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 800;
+    display: inline-block;
+    background-image: none;
+    transform:unset;
+}
+.faq_wrapper .accordion-body{
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 0 20px 0;
+    padding-bottom: 25px;
+    line-height: 1.5; 
+}
+
+.faq_img{
+    width: 550px;
+    height: fit-content;
+    padding: 0%;
+    margin: 0%;
+}
+
+.faq_img span{
+    display: block;
+    width: 100px;
+    border-radius: 50%;
+    padding: 43%;
+    border: 2px solid white;
+    position: relative;
+    top: -18px;
+    left: 79px;
+    background: linear-gradient(to right bottom, #1C1F39 0%, #2F3565 100%);
+
+}
+
+.faq_img img{
+    position: relative;
+    top: -300px;
+    right: -30px;
+    width: 100%;
+}

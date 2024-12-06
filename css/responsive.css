@@ -1,0 +1,245 @@
+@media (max-width:990px) {
+    #Results{
+        background-color: #150136;
+        width: 100%;
+    }
+
+    .top_banner h1{
+        padding-top: 100px;
+        font-size: 45px;
+        font-weight: 600;
+        line-height: 49.5px;
+        letter-spacing: normal;
+        margin-bottom: 3rem;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .top_banner h1 span{
+        font-size: 45px;
+        font-weight: 600;
+    }
+
+    .map p{
+        width: 100%;
+        text-align: center;
+    }
+
+    .map .flag{
+        position: relative;
+        width: 45px;
+        height: 30px;
+    }
+    
+    .map .fl_1{
+        position: relative;
+        top: -350px;
+        left: 500px;
+    }
+    
+    .map .fl_2{
+        position: relative;
+        top: -280px;
+        left: 485px;
+    }
+    
+    .map .fl_3{
+        position: relative;
+        top: -310px;
+        left: 230px;
+    }
+    
+    .map .fl_4{
+        position: relative;
+        top: -270px;
+        left: -2px;
+    }
+    
+    .map .fl_5{
+        position: relative;
+        top: -250px;
+        left: 185px;
+    }
+    
+    .map .fl_6{
+        position: relative;
+        top: -180px;
+        left: 290px;
+    }
+    
+    .map .fl_7{
+        position: relative;
+        top: -278px;
+        left: 83px;
+    }
+    
+    .map .fl_8{
+        position: relative;
+        top: -300px;
+        left: 27px;
+    }
+}
+
+@media (max-width:740px) {
+    #Results{
+        background-color: #150136;
+        width: 100%;
+    }
+
+    .top_banner h1{
+        padding-top: 100px;
+        font-size: 45px;
+        font-weight: 600;
+        line-height: 49.5px;
+        letter-spacing: normal;
+        margin-bottom: 3rem;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .top_banner h1 span{
+        font-size: 45px;
+        font-weight: 600;
+    }
+
+    .map p{
+        width: 100%;
+        text-align: center;
+    }
+
+    .map .flag{
+        position: relative;
+        width: 45px;
+        height: 30px;
+    }
+    
+    .map .fl_1{
+        position: relative;
+        top: -250px;
+        left: 355px;
+    }
+    
+    .map .fl_2{
+        position: relative;
+        top: -200px;
+        left: 335px;
+    }
+    
+    .map .fl_3{
+        position: relative;
+        top: -230px;
+        left: 135px;
+    }
+    
+    .map .fl_4{
+        position: relative;
+        top: -180px;
+        left: -45px;
+    }
+    
+    .map .fl_5{
+        position: relative;
+        top: -165px;
+        left: 85px;
+    }
+    
+    .map .fl_6{
+        position: relative;
+        top: -137px;
+        left: 147px;
+    }
+    
+    .map .fl_7{
+        position: relative;
+        top: -195px;
+        left: -17px;
+    }
+    
+    .map .fl_8{
+        position: relative;
+        top: -215px;
+        left: -69px;
+    }
+}
+
+@media (max-width:590px) {
+    #Results{
+        background-color: #150136;
+        width: 100%;
+    }
+
+    .top_banner h1{
+        padding-top: 100px;
+        font-size: 45px;
+        font-weight: 600;
+        line-height: 49.5px;
+        letter-spacing: normal;
+        margin-bottom: 3rem;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .top_banner h1 span{
+        font-size: 45px;
+        font-weight: 600;
+    }
+
+    .map p{
+        width: 100%;
+        text-align: center;
+    }
+
+    .map .flag{
+        position: relative;
+        width: 45px;
+        height: 30px;
+    }
+    
+    .map .fl_1{
+        position: relative;
+        top: -220px;
+        left: 300px;
+    }
+    
+    .map .fl_2{
+        position: relative;
+        top: -180px;
+        left: 280px;
+    }
+    
+    .map .fl_3{
+        position: relative;
+        top: -205px;
+        left: 110px;
+    }
+    
+    .map .fl_4{
+        position: relative;
+        top: -165px;
+        left: -60px;
+    }
+    
+    .map .fl_5{
+        position: relative;
+        top: -165px;
+        left: 50px;
+    }
+    
+    .map .fl_6{
+        position: relative;
+        top: -125px;
+        left: 100px;
+    }
+    
+    .map .fl_7{
+        position: relative;
+        top: -180px;
+        left: -53px;
+    }
+    
+    .map .fl_8{
+        position: relative;
+        top: -200px;
+        left: -100px;
+    }
+}
